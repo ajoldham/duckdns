@@ -1,0 +1,16 @@
+version: '2'
+services:
+  duckdns:
+    image: duckdns
+    environment:
+      - DOMAINS=xxx
+      - TOKEN=xxx
+
+      # Wait time in Minutes
+      - INTERVAL=5
+      
+      # Use IP= instead of DETECTIP for static changes/testing
+      #- IP=1.1.1.1
+      - DETECTIP=1
+           
+    restart: always
