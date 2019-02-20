@@ -7,7 +7,7 @@ services:
       - TOKEN=xxx
 
       # Wait time in Minutes
-      - INTERVAL=5
+      - INTERVAL=60
       
       # Use IP= instead of DETECTIP for static changes/testing
       #- IP=1.1.1.1
